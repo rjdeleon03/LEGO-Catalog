@@ -22,5 +22,9 @@ class ThemesFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_themes, container, false)
     }
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
 
+
+    }
 }
