@@ -8,11 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.rjdeleon.legocatalog.R
+import com.rjdeleon.legocatalog.di.Injectable
 
 /**
  * A simple [Fragment] subclass.
  */
-class ThemesFragment : Fragment() {
+class ThemesFragment : Fragment(), Injectable {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
